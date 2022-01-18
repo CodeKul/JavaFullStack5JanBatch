@@ -9,6 +9,13 @@
  * 7. Ternary Operator -: ? :
  * 8. Relational Operator -: <,>,<=,>=,instanceof
  * 9. Assignment Operator -: =,+=,-=,*=,/=
+ *
+ *  AND Operators   OR Operator
+ *  T T -> T        T
+ *  T F -> F        T
+ *  F T -> F        T
+ *  F F -> F        F
+ *
  */
 public class Operators {
 
@@ -68,5 +75,31 @@ public class Operators {
         System.out.println(a>b | a>x);
         //always checks both conditions whether 1st condition is true or false
 
+        //Ternary Operator - replacement of if else
+        a = 7;
+        b = 9;
+        int min = a<b ? a : b;
+        System.out.println("minimum "+min);
+//        if (a<b)
+//            min = a;
+//        else
+//            min = b;
+
+
+        // Relational Operator
+        System.out.println(a<b);
+        System.out.println(a<=b);
+        System.out.println(a>b);
+        System.out.println(a>=b);
+        //Assignment Operators
+        a+=50;//a = a + 50;
+        b-=5; //b = b-5
+        a*=2; // a= a*2;
     }
 }
+
+/**
+ * HomeWork
+ *  Take 2 nos by using ternary operator find min & max
+ *
+ */
