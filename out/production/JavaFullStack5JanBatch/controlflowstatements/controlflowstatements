@@ -6,6 +6,9 @@
             c) if-else-if ladder
             d) Nested if
         - switch statement
+            - executes one statement from multiple condition
+            - works with byte,short,int,long(till Java 6)
+            - works with String(From Java 7)
 2. Loop Statements
         - for loop
         - while loop
