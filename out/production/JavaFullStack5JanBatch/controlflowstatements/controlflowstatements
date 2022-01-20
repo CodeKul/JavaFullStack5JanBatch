@@ -11,6 +11,8 @@
             - works with String(From Java 7)
 2. Loop Statements
         - for loop
+            a)Simple for loop
+            b)Nested for loop
         - while loop
         - do while loop
         - for each loop

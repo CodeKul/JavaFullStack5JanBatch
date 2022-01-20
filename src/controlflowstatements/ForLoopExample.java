@@ -11,6 +11,10 @@ public class ForLoopExample {
         for (int i=1;i<=10;i++) {
             System.out.println(i);
         }
+
+        for (;;){
+            System.out.println("infinite loop");
+        }
     }
 }
 
