@@ -1,0 +1,23 @@
+class Animal{ //parent or super
+	void eat()
+}
+class Dog extends Animal{ //child or sub-class
+	void eat()
+}
+
+  - when an object acquires all the properties and behaviours of a parent object
+  - provides code re-usability
+  - represents IS-A relationship
+  eg. Dog is a animal,
+      Cat is a animal,
+      Sparrow is a bird
+      Doctor is a person
+
+Types of Inheritance
+a) Single Inheritance -
+b) Multilevel Inheritance -
+c) Hierarchical Inheritance -
+d) Multiple Inheritance
+	- Java does not support multiple inheritance
+
+e) Hybrid Inheritance
