@@ -48,14 +48,13 @@ class Car{
 		// display all properties here
 	}
 }
-
 3. class Employee{
 	double salary;
 	void display(){
 		//display salary
 	}
 }
-class PermenantEmployee extends Employee{
+class PermanentEmployee extends Employee{
 	double hike 1.5;
 	double calculateTotalSalary(){
 		salary +(salary * 1.5/100)
