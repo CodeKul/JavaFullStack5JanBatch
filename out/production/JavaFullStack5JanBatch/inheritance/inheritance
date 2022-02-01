@@ -21,3 +21,30 @@ d) Multiple Inheritance
 	- Java does not support multiple inheritance
 
 e) Hybrid Inheritance
+
+
+Homework
+1. class Shape{
+	int base;
+	int height;
+ }
+ class Rectangle extends Shape{
+	double calculateArea(){
+    		return 0.0;
+    	}
+ }
+
+2. class Vehicle{
+	int gear;
+	int wheels;
+}
+class Car{
+	String color;
+	String name;
+	void insertData(){
+		//set all properties here
+	}
+	void display(){
+		// display all properties here
+	}
+}

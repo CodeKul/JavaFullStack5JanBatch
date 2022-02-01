@@ -39,7 +39,7 @@ Homework
 	int wheels;
 }
 class Car{
-	int color;
+	String color;
 	String name;
 	void insertData(){
 		//set all properties here
