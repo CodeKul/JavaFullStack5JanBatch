@@ -55,15 +55,15 @@ class Car{
 	}
 }
 class PermanentEmployee extends Employee{
-	double hike 1.5;
+	double hike = 1.5;
 	double calculateTotalSalary(){
-		salary +(salary * 1.5/100)
+		salary +(salary * hike/100)
 	}
 }
 class TemporaryEmployee extends Employee{
-double hike 0.5;
+double hike = 0.5;
 	double calculateTotalSalary(){
-		salary +(salary * 1.5/100)
+		salary +(salary * hike/100)
 	}
 }
 class EmployeeImpl{
