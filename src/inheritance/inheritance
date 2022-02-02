@@ -19,6 +19,27 @@ b) Multilevel Inheritance -
 c) Hierarchical Inheritance -
 d) Multiple Inheritance
 	- Java does not support multiple inheritance
+	- Ambiguity problem
+class A{
+	void show(){
+	}
+}
+class B {
+	void show(){
+	}
+}
+class C extends B,A{//Ambiguity problem
+}
+class Impl{
+	main(){
+	 C c = new C();
+	 c.show();
+	}
+}
+
+
+
+
 
 e) Hybrid Inheritance
 
