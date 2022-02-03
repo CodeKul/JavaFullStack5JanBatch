@@ -1,4 +1,4 @@
-package inheritance.methodoverloading;
+package polymorphism.methodoverloading;
 
 public class MethodOverloadingDemo {
     int add(int a,int b){

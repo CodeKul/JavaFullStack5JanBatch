@@ -1,4 +1,7 @@
 - name of the method is same but argument/parameters are different
+- by changing no. of args
+- by changing data types
+- not possible by changing the return type
 
 eg.
 	void add(int a,int b)
@@ -7,3 +10,4 @@ eg.
 	void add(int a,float b)
 	void add(float b,int a)
 	void add(float a,float b)
+
