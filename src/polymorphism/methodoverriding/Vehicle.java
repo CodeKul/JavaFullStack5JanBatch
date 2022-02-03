@@ -10,7 +10,6 @@ class Car extends Vehicle{
         System.out.println("in car class");
     }
 }
-
 class Bike extends Vehicle{
     void show(){
         System.out.println("in Bike class");
