@@ -26,8 +26,8 @@ class BankImpl{
 }
 
 2. Difference between Method Overloading & Overriding
-3. Can we Override the main method?
-4. Can we overload the main method?
+3. Can we Override the main method? No why?
+4. Can we overload the main method? Yes
 5.
 class Employee{
 	double salary = 50000;

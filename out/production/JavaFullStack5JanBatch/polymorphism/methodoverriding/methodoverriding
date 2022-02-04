@@ -1,3 +1,59 @@
+- if subclass having same method as declared in superclass/parent class
 - name of the methods are same with same parameters/arguments
 - achieve run time polymorphism
 - requires is-a relationship
+
+Homework:
+class Bank{
+	double getRateOfInterest(){
+		return 7;
+	}
+}
+class SBI extends Bank{
+	double getRateOfInterest(){
+		return 8;
+	}
+}
+class ICICI extends Bank{
+	double getRateOfInterest(){
+    		return 9;
+    }
+}
+class BankImpl{
+	main(){
+		//implementation
+	}
+}
+
+2. Difference between Method Overloading & Overriding
+3. Can we Override the main method? No why?
+4. Can we overload the main method? Yes
+5.
+class Employee{
+	double salary = 50000;
+}
+class Developer extends Employee{
+	double salary = 45000;
+	double calculateSalary(){
+		totalSalary = 5000 + salary;
+		return totalSalary;
+	}
+	void printSalary(){
+		//print salary
+	}
+}
+class Tester extends Employee{
+	double salary = 30000;
+	double calculateSalary(){
+    		totalSalary = 1000 + salary;
+    		return totalSalary;
+    }
+    void printSalary(){
+    		//print salary
+    	}
+}
+class EmployeeImpl{
+	main(){
+
+	}
+}

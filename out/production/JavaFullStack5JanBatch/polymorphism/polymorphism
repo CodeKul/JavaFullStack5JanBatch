@@ -1,0 +1,18 @@
+2 Types of Polymorphism
+
+1. compile-time polymorphism or static polymorphism - achieved by method overloading
+2. run-time polymorphism or method dispatch - achieved by method overriding
+
+poly - many
+morphism - form
+eg.
+	water : solid-ice,liquid-water,gas-vapours
+
+Difference:
+MethodOverloading       methodOverriding
+1.same method           1.same method
+2.diff args             2.same args
+3.compile-time          3.run-time
+4.within same class     4.diff classes(using inheritance)
+5.return type can       5.requires same return
+	be diff                 type
