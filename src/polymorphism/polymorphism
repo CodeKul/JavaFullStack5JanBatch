@@ -16,3 +16,37 @@ MethodOverloading       methodOverriding
 4.within same class     4.diff classes(using inheritance)
 5.return type can       5.requires same return
 	be diff                 type
+
+Homework
+1.
+class Shape{
+	void calculateArea(){
+		//print
+	}
+}
+class Rectangle extends Shape{
+	void calculateArea(){
+    		//print
+    	}
+}
+class Circle extends Shape{
+void calculateArea(){
+    		//print
+    	}
+}
+class Triangle extends Shape{
+void calculateArea(){
+    		//print
+    	}
+}
+class Square extends Shape{
+
+void calculateArea(){
+    		//print
+    	}
+}
+class Impl{
+main(){
+	//display area of all shapes here
+}
+}
