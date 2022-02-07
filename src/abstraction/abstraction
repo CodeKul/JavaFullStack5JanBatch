@@ -1,0 +1,19 @@
+- hiding internal details/implementation & showing functionality only
+
+2 ways to achieve abstraction
+1. Abstract class (0-100%)
+2. Interface(100%)
+
+Syntax:
+abstract class A{
+	methods; //abstract method or non-abstract (concrete methods)
+	fields;
+}
+
+Notes:
+1. abstract class can have abstract methods or non-abstract methods
+2. if class contains abstract methods then class must be abstract
+3. class have static methods
+4. class have final methods
+5. if any class extends abstract class then we have implement abstract method or declared that class as abstract
+6. class does not instantiated(cannot create an object of abstract class)
