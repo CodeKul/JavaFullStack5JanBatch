@@ -17,3 +17,24 @@ Notes:
 4. class have final methods
 5. if any class extends abstract class then we have implement abstract method or declared that class as abstract
 6. class does not instantiated(cannot create an object of abstract class)
+
+Homework:
+class Shape{
+	calculateArea();
+}
+class Circle extends Shape{
+	//fields for circle
+	//calculate area
+}
+class Rectangle extends Shape{
+	//fields for circle
+	//calculate area
+}
+class Square extends Shape{
+	//fields for circle
+	//calculate area
+}
+class Triangle extends Shape{
+	//fields for circle
+	//calculate area
+}
