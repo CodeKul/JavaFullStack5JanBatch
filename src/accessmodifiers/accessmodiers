@@ -1,0 +1,17 @@
+ - provides accessibility for fields,methods or constructors
+
+ 4 Types of access modifiers
+
+ 1. private
+    - within a class only
+    - not accessible out the class,package
+
+
+ 2. default
+    - can have access outside the class with same package
+    - not accessible outside the package
+    - can have access in sub class
+
+ 3. protected
+    -
+ 4. public

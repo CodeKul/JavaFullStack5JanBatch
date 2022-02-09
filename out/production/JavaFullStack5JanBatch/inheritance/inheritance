@@ -92,3 +92,37 @@ class EmployeeImpl{
 
 	}
 }
+
+4.
+class Employee{
+	int id;
+	String name;
+	String mobile;
+	String email;
+}
+class Developer extends Employee{
+	String designation;
+	insertData(){
+		//insert id,name,mobile,email,designation
+	}
+	//display(){
+		//print
+	}
+}
+
+class Tester extends Employee{
+	String designation;
+	insertData(){
+		//insert id,name,mobile,email,designation
+	}
+	//display(){
+		//print
+	}
+}
+class Impl{
+	//menu driven
+	1. insert data
+	2. display
+	3. exit
+	//switch
+}
