@@ -1,0 +1,22 @@
+- binding or wrapping code & data together into a single unit(class)
+
+eg.
+	class Student{
+		private int id;
+		private String name;
+
+	}
+
+Advantages:
+	- used for security
+	- allow/restrict to user for set the value or get the value
+	- allow to write only & read only
+
+Homework :
+1. Employee
+        int id
+        String name
+        double salary //write only
+        double bonus  //read only
+        String email
+   Create double calculateBonus() -bonus = salary + 1000;

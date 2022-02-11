@@ -1,0 +1,27 @@
+ - provides accessibility for fields,methods or constructors
+
+ 4 Types of access modifiers/access specifiers
+
+ 1. private
+    - within a class only
+    - not accessible out the class,package
+    - class never be private
+
+
+ 2. default
+    - can have access outside the class with same package
+    - not accessible outside the package
+    - can have access in sub class
+    - no need to specify default keyword
+
+ 3. protected
+    - access within a package
+    - not accessible outside the package
+    - through the child or by extending the class we can access protected data member
+        outside the package(through the inheritance only)
+
+ 4. public
+    - access everywhere
+
+Homework:
+1. why we cannot declare class as private?
